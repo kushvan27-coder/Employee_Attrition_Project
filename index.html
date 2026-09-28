@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee Attrition Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Employee Attrition Prediction</h1>
+            <p>Machine Learning Based Risk Scoring System</p>
+        </div>
+
+        <form action="/predict" method="POST">
+            <div class="grid">
+                <div><label>Age</label><input type="number" name="Age" min="18" max="70" required></div>
+                <div><label>Department</label>
+                    <select name="Department">
+                        <option>Sales</option>
+                        <option>Research & Development</option>
+                        <option>Human Resources</option>
+                    </select>
+                </div>
+                <div><label>Job Role</label>
+                    <select name="JobRole">
+                        <option>Sales Executive</option>
+                        <option>Sales Representative</option>
+                        <option>Research Scientist</option>
+                        <option>Laboratory Technician</option>
+                        <option>Manufacturing Director</option>
+                        <option>Healthcare Representative</option>
+                        <option>Manager</option>
+                        <option>Human Resources</option>
+                    </select>
+                </div>
+                <div><label>Years at Company</label><input type="number" name="YearsAtCompany" min="0" max="45"
+                        required></div>
+                <div><label>Monthly Income (₹)</label><input type="number" name="MonthlyIncome" min="10000" required>
+                </div>
+                <div><label>Job Level (1-5)</label><input type="number" name="JobLevel" min="1" max="5" required></div>
+                <div><label>Job Satisfaction (1-4)</label><input type="number" name="JobSatisfaction" min="1" max="4"
+                        required></div>
+                <div><label>Work-Life Balance (1-4)</label><input type="number" name="WorkLifeBalance" min="1" max="4"
+                        required></div>
+                <div><label>Environment Satisfaction (1-4)</label><input type="number" name="EnvironmentSatisfaction"
+                        min="1" max="4" required></div>
+            </div>
+            <button type="submit">Predict Attrition Risk</button>
+        </form>
+    </div>
+</body>
+
+</html>

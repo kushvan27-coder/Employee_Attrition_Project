@@ -1,0 +1,41 @@
+Age,Department,JobRole,YearsAtCompany,MonthlyIncome,JobLevel,JobSatisfaction,WorkLifeBalance,EnvironmentSatisfaction,Attrition
+41,Sales,Sales Executive,3,110000,1,80,4,2,1
+49,Research & Development,Research Scientist,10,160000,2,61,2,3,0
+37,Research & Development,Laboratory Technician,7,125000,3,80,3,4,0
+33,Research & Development,Research Scientist,8,135000,4,65,2,3,0
+27,Research & Development,Laboratory Technician,6,100000,5,52,3,2,1
+32,Research & Development,Manufacturing Director,9,145000,6,82,4,4,0
+59,Research & Development,Healthcare Representative,4,180000,7,45,2,3,1
+30,Research & Development,Laboratory Technician,3,95000,8,90,4,4,0
+38,Research & Development,Manufacturing Director,8,155000,9,70,3,3,0
+36,Sales,Sales Representative,5,105000,10,55,2,2,1
+35,Research & Development,Research Scientist,7,120000,11,75,3,3,0
+29,Research & Development,Laboratory Technician,2,90000,12,48,2,2,1
+31,Research & Development,Research Scientist,6,130000,13,78,4,4,0
+34,Research & Development,Research Scientist,8,140000,14,72,3,4,0
+28,Sales,Sales Executive,4,115000,15,50,2,2,1
+42,Sales,Sales Executive,10,175000,16,68,3,3,0
+40,Human Resources,Human Resources,9,125000,17,58,2,3,1
+26,Sales,Sales Representative,2,85000,18,44,1,2,1
+46,Research & Development,Manager,15,220000,19,88,4,4,0
+39,Sales,Sales Executive,11,150000,20,73,3,3,0
+25,Research & Development,Laboratory Technician,1,80000,21,40,1,1,1
+52,Research & Development,Manager,20,250000,22,92,4,4,0
+45,Sales,Manager,17,230000,23,85,4,4,0
+30,Human Resources,Human Resources,5,105000,24,60,2,2,1
+33,Research & Development,Research Scientist,5,118000,25,76,3,3,0
+27,Sales,Sales Executive,3,98000,26,49,2,2,1
+48,Research & Development,Research Scientist,13,170000,27,79,3,4,0
+36,Sales,Sales Executive,6,125000,28,57,2,3,1
+43,Research & Development,Healthcare Representative,12,165000,29,81,4,4,0
+24,Research & Development,Laboratory Technician,1,76000,30,35,1,1,1
+50,Sales,Sales Executive,14,185000,31,74,3,4,0
+38,Human Resources,Human Resources,7,115000,32,62,2,3,0
+29,Research & Development,Research Scientist,4,108000,33,54,2,2,1
+55,Research & Development,Manager,18,240000,34,90,4,4,0
+31,Sales,Sales Representative,2,88000,35,46,1,2,1
+44,Research & Development,Manufacturing Director,11,158000,36,77,3,3,0
+28,Sales,Sales Executive,5,112000,37,59,2,2,1
+47,Research & Development,Research Scientist,16,190000,38,83,4,4,0
+32,Human Resources,Human Resources,6,108000,39,51,2,3,1
+41,Sales,Manager,12,205000,40,86,4,4,0

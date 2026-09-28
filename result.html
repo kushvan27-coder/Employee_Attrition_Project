@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container result">
+        <div class="header">
+            <h1>Prediction Result</h1>
+            <p>Employee Attrition Risk Assessment</p>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Prediction</h3><strong>{{ prediction }}</strong>
+            </div>
+            <div class="card">
+                <h3>Attrition Probability</h3><strong>{{ probability }}%</strong>
+            </div>
+            <div class="card">
+                <h3>Risk Level</h3><strong>{{ risk }}</strong>
+            </div>
+        </div>
+
+        <h2>Employee Details</h2>
+        <div class="details">
+            {% for key, value in employee.items() %}
+            <p><b>{{ key }}:</b> {{ value }}</p>
+            {% endfor %}
+        </div>
+
+        <a class="back" href="/">← New Prediction</a>
+    </div>
+</body>
+
+</html>
